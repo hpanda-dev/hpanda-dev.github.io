@@ -119,6 +119,20 @@
     © 2025 Your Name | Built with ❤️ | Hosted on GitHub Pages
   </footer>
 
+<section class="section">
+  <h2>Connect With Me</h2>
+  <form style="display: grid; gap: 1rem;">
+    <input type="text" placeholder="Your Name" required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+    <input type="email" placeholder="Your Email" required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+    <input type="tel" placeholder="Your Phone" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+    <input type="text" placeholder="Subject" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+    <textarea rows="5" placeholder="Message" required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc; resize: vertical;"></textarea>
+    <button type="submit" style="padding: 10px; background: #0077b5; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      Send Message
+    </button>
+  </form>
+</section>
+
 <script>
   const form = document.querySelector('form');
   form.addEventListener('submit', async (e) => {
