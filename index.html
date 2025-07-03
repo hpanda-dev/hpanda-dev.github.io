@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <!--Head Starts Here-->
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hrushikesh Panda | Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
   <style>
     * {
-      margin: 0; padding: 0; box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
       font-family: 'Poppins', sans-serif;
     }
 
@@ -78,92 +82,124 @@
     }
   </style>
 </head>
-<body>
 
+<body>
+  <!--Body Starts Here-->
   <header>
+    <!--Header Details-->
     <h1>Hrushikesh Panda</h1>
-    <p>Backend Java Developer | Tech Enthusiast | DevOps Learner</p>
+    <p>Backend Java Developer</p>
     <a class="linkedin-btn" href="https://www.linkedin.com/in/hkpanda/" target="_blank">LinkedIn</a>
   </header>
 
+  <!--About Me Section Details-->
   <div class="container">
     <section class="section">
       <h2>About Me</h2>
-      <p>I'm a software developer with 3+ years of experience in Java, working on SIP, backend services, and system integration. I enjoy learning Spring, DevOps and contributing to innovative backend solutions.</p>
+      <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem;">
+        <img src="rishi.jpg" alt="Hrushikesh"
+          style="width: 180px; border-radius: 50%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);" />
+        <p style="flex: 1;">
+          I'm a software developer with 3+ years of experience in designing, developing and optimizing software
+          solutions. Proficient in Java EE, Basic Python and SIP Protocol,
+          with hands-on experience in backend development and VoIP communication protocols. I enjoy learning Spring,
+          DevOps and contributing to innovative backend solutions.
+        </p>
+      </div>
     </section>
-
+    <!--Experience Section Detials-->
     <section class="section">
-      <h2>Skills</h2>
+      <h2>Experience</h2>
       <ul>
-        <li><h4>Frontend Tech Stack: </h4>HTML, CSS, JavaScrript</li>
-        <li><h4>Backend Tech Stack: </h4>Java/Java8, Spring Boot, MySQL</li>
-        <li><h4>Tools & Others: </h4>Jenkins, Git, Jira, Confluence, Linux, JSR289, RFC3261</li>
+        <li>
+          <h3>Capgemini</h3>
+          <div class="text-left">
+            <ul >
+              <li>Working as Java Backend Developer in Capgemini Engineering with 3+ years of experience.</li>
+              <li>Expertise in developing applications with Java8, Collection Framework, Basic Python, Linux.</li>
+              <li>Experienced in Software Development Life Cycle in the areas of Analysis, Coding, Testing and Maintanence of Software.</li>
+              <li>Worked in the client application to build and deploy the code by using CI/CD and Jenkins.</li>
+              <li>Hands-on experience with customising and implement new features in client application as per requirement with commited deadline.</li>
+              <li>Team player and flexible to adapt the challenging environments.</li>
+            </ul>
+          </div>
+        </li>
       </ul>
     </section>
 
+    <!--Skills Sections Details-->
     <section class="section">
-      <h2>GitHub Projects</h2>
+      <h2>Skills</h2>
+      <ul>
+        <li>
+          <strong>Frontend Tech Stack:</strong> HTML, CSS, JavaScrript
+        </li>
+        <li>
+          <strong>Backend Tech Stack:</strong> Java/Java8, Spring Boot, MySQL
+        </li>
+        <li>
+          <strong>Others:</strong> Jenkins, Git, Jira, Confluence, Linux, JSR289, RFC3261
+        </li>
+      </ul>
+    </section>
+
+    <!--Education Details-->
+    <section class="section">
+      <h2>Education</h2>
+        <h3>Bachelor's In Computer Science</h3>
+        <p>JNTU Kakinada, Andhra Pradesh</p>
+        <h4>2017-2021 | <span>CGPA: 6.9/10</span></h4>
+    </section>
+
+    <!--Project Section Deatils-->
+    <!--section class="section">
+      <h2>Projects</h2>
       <ul>
         <li><strong>My SIP Tool</strong> - Java-based SIP tester tool for signaling tests</li>
         <li><strong>DevOps Lab</strong> - Sample CI/CD setup using Jenkins & Docker</li>
       </ul>
-    </section>
-
+    </section-->
+    
+    <!--Contact Section Details-->
     <section class="section">
-      <h2>Contact</h2>
-      <p>Email: your.email@example.com</p>
+      <h2>Connect with me</h2>
+      <p>Mobile: +91-99666-59766</p>
+      <p>Email: phrushikesh60@gmail.com</p>
+      <br>
+      <h2>Send me a message</h2>
+       <form action="https://getform.io/f/avrylvoa" method="POST">
+        <div class="form-group">
+          <input type="name" class="form-control" id="name" placeholder="Name" name="name" required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;"/>
+        </div>
+        <div class="form-group">
+          <input
+            type="email" class="form-control" id="email" placeholder="Email" name="email" required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;"/>
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="subject" placeholder="Subject" name="subject" required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;"/>
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" rows="5"
+            placeholder="Enter your message"
+            name="message"
+            required 
+            style="padding: 10px; border-radius: 5px; border: 1px solid #ccc; resize: vertical;"
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary" style="padding: 10px; background: #0077b5; color: white; border: none; border-radius: 5px; cursor: pointer;">
+            Send message
+          </button>
+        </div>
+      </form>
     </section>
   </div>
 
+  <!--Footer Deatils-->
   <footer>
-    © 2025 Your Name | Built with ❤️ | Hosted on GitHub Pages
+    © 2025 Hrushikesh | Hosted on GitHub ❤️ 
   </footer>
 
-<section class="section">
-  <h2>Connect With Me</h2>
-  <form style="display: grid; gap: 1rem;">
-    <input type="text" placeholder="Your Name" required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
-    <input type="email" placeholder="Your Email" required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
-    <input type="tel" placeholder="Your Phone" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
-    <input type="text" placeholder="Subject" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
-    <textarea rows="5" placeholder="Message" required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc; resize: vertical;"></textarea>
-    <button type="submit" style="padding: 10px; background: #0077b5; color: white; border: none; border-radius: 5px; cursor: pointer;">
-      Send Message
-    </button>
-  </form>
-</section>
-
-<script>
-  const form = document.querySelector('form');
-  form.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    
-    const data = {
-      name: form.elements[0].value,
-      email: form.elements[1].value,
-      phone: form.elements[2].value,
-      subject: form.elements[3].value,
-      message: form.elements[4].value,
-    };
-
-    try {
-      const response = await fetch('https://your-backend-url.com/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data)
-      });
-
-      if (response.ok) {
-        alert('Message sent successfully!');
-        form.reset();
-      } else {
-        alert('Failed to send message.');
-      }
-    } catch (error) {
-      alert('Error sending message.');
-    }
-  });
-</script>
-
 </body>
+
 </html>
